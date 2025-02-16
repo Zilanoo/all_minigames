@@ -39,10 +39,10 @@
    coord: [1802.125,1011.393501594518]
 - _Equipment::Shield<Pot Lid>:
    icon-map: false
-- 1 .food(stamina wheel) from statue:
+- 1 .food(stamina upgrade) from statue:
    icon: orbs
    coord: [1840.5,997.7453060769467]
-   notes: .important(Don't try to take another stamina wheel or the game will crash)
+   notes: .important(Don't try to take another stamina upgrade or the game will crash)
 - .dir(N>) + .dir(N): 
    movements: 
    - to: [1871.3125,911.1705744672372]
@@ -60,7 +60,7 @@
    coord: [3781.25,2126.8816126069296]
 - _Npc::Sheika::Female<Purah>:
    icon-map: null
-- Take her picture, show it to her
+- Take picture, show it to her
 - .dir(W>):
    comment: Equip bomb arrow and wooden bow
 - _Npc<Dantz>:
