@@ -29,7 +29,7 @@
 - _Npc::Gerudo<Tali>:
    coord: [-3768.6875,3123.2531521235105]
 - Sand Seal Race 1:
-   notes: .important(Be careful not to get too good a time, you need to beat it later!)
+   notes: .important(Be careful not to get a too good a time, you need to beat it later!)
 - Return orb 
 - _Npc::Gerudo<Tali>:
    icon-map: null 
@@ -43,7 +43,7 @@
 - _Npc::Gerudo<Anche>:
    coord: [-3751.25,2285.3886020981918]
    comment: Ice House 
-   notes: Bring ice up stairs, then melt. Stand over it and shoot the top face with a fire arrow to get a consistent size
+   notes: Bring ice upstairs, then melt. Stand over it and shoot the top face with a fire arrow to get a consistent size
 - BLSS with ice cube 
 - _Npc::Gerudo<Furosa>:
    comment: Deliver ice
