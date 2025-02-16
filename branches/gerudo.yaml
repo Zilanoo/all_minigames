@@ -29,7 +29,7 @@
 - _Npc::Gerudo<Tali>:
    coord: [-3768.6875,3123.2531521235105]
 - Sand Seal Race 1:
-   notes: .important(Be careful not to get a too good a time, you need to beat it later!)
+   notes: .important(Be careful not to get a too good time, you need to beat it later!)
 - Return orb 
 - _Npc::Gerudo<Tali>:
    icon-map: null 
