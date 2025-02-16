@@ -1,0 +1,65 @@
+- Revali's Gale:
+   icon: medoh
+   movements:
+      - to: [-3565.625, -1817.375]
+        warp: true
+   color: green 
+- _Npc::Rito<Kaneli>:
+   coord: [-3604.3125,-1830.423343981232]
+- _Chest<Great Eagle Bow>:
+   icon-map: null
+- _Npc::Rito<Teba>:
+   movements: 
+   - to: [-3591.0625,-1823.607965955418]
+   - to: [-3587.125,-1806.9833828271458]
+- .dir(<N)
+- _Npc::Rito<Tulin>:
+   coord: [-3804.125,-2312.1136934700166]
+- .game(Flight Range):
+   icon-doc: game 
+   comment: Gold Rupee 
+   notes: Equip Swallow Bow and Bomb Arrows
+- .dir(GALE 1) + .dir(E) + .dir(E)
+- BTB:
+   coord: [-3445.125,-2363.360575608718]
+   notes: .link([BTB setup]https://youtu.be/xSuhnA8TLoM?si=-_5xkV5GYr1Ilo8m&t=2190)
+- _Npc<Selmie>:
+   icon-map: null
+- .game(Shield Surfing Minigame):
+   icon: game
+   coord: [-2953.25,-3140.101393335883]
+   comment: Royal Shield
+   notes: For beginner course .dir(W>) and for advanced course .dir(BLSS SW)
+- .dir(BLSS SE)
+- _Npc<Pondo>:
+   coord: [-2071.9375,-2108.5190497899116]
+   icon-map: null
+- .game(Bowling):
+   icon: game
+   comment: Blizzard Rod
+   notes: .link([Setup]https://www.youtube.com/watch?v=zCam0cZcU18) for Bowling
+- .dir(BLSS SE)
+- _Npc<Branli>:
+   coord: [-1755.25,-774.4939355884635]
+   icon-map: null
+- .game(Gliding Minigame):
+   icon: game
+   comment: Silver Rupee
+- .dir(BLSS W>)
+- _Npc<Konba>:
+   coord: [-2638.5625,-1167.0581829612793]
+   icon-map: null 
+- .game(Footrace Minigame):
+   comment: Purple Rupee
+   icon: game
+   notes: .dir(S) + .dir(S)
+- .dir(BLSS S>)
+- _Npc::Goron<Modar>:
+   coord: [-3119.875,-626.35067382943]
+   icon-map: null
+- _Equipment::Weapon<Iron Sledgehammer>:
+   icon-map: null
+- .game(Golf):
+   icon: game 
+   comment: Silver Rupee
+- _Warp::Shrine::DaqoChisay

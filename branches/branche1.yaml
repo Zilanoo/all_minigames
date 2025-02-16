@@ -1,0 +1,142 @@
+- BLSS NE
+- _Material<5 Fleet Lotus Seed>:
+   comment: Speedfood
+   coord: [1959,393.53679761576404]
+- .dir(S) + .dir(S) + .dir(<S):
+   movements:
+     - to: [1951,523.0956600961017]
+     - to: [1912.5,658.1184102049174]
+     - to: [1937,793.1370488482835]
+
+- _Material<1 Fairy>:
+   coord: [1968.75,858.7905664590917]
+   comment:
+- _Material<2 Nightshade>:
+   comment: 
+- _Material<2 Endura Carrot>:
+   comment:
+- _Material<2 Silent Princess>:
+   comment:
+- .dir(SW)
+- _Npc::Sheika::Female<Impa>:
+   coord: [1775.75,984.5228871576637]
+   comment: Talk twice
+- _Cook<Cook Speedfood>:
+   comment: 5x Fleet Lotus Seed
+   coord: [1802.125,1011.393501594518]
+- _Npc::Sheika::Female<Arrow Shopkeeper>:
+   coord: [1827.125,1039.7771356719604]
+
+
+- IST: 
+   icon-doc: ist
+   comment: .link([Simulator]https://ist.itntpiston.app/?c=H4sIAAAAAAACA32R0XbDIAiG730KXqE92wORSKOnNjAwy%2Fb2wybZkp52N%2Forwv8JA1U4QWXtk%2B%2F4Rb52PMMboCrPBu9%2BvHXb6QTCteQIcAYhEVJzZUmZby5QpJDvYx5StYSxlbtg1u%2F2XvPYk7UEGuOkCH2r2vxNiOKFOTZdsJL7s3bNb3A30kAfU5bGFzolvHrcClcLc67pCYttMHagsTX7%2FJD9gsyC5P4KkzjHIbDDWdTSlWD46TdY%2Fz4UorL8NuGxzBpce7p0fpvCfSY7gN2MglJhXO3%2BNZjGA98%2Bb9E%2F2vtbAgACAAA%3D)
+- Sell 250 fairies
+- Eat Speedfood
+- _Equipment::Bow<Wooden Bow>:
+   coord: [1836.625,1044.4524383244625]
+- _Cook<Cook Endurafood>:
+   coord: [1802.125,1011.393501594518]
+- _Equipment::Shield<Pot Lid>:
+   icon-map: false
+- 1 .food(stamina wheel) from statue:
+   icon: orbs
+   coord: [1840.5,997.7453060769467]
+   notes: .important(Don't try to take another stamina wheel or the game will crash)
+- .dir(N>) + .dir(N): 
+   movements: 
+   - to: [1871.3125,911.1705744672372]
+   - to: [1869.125,814.7151210681122]
+- BLSS from the stump:
+   coord: [3578,1975.5417998987268]
+
+
+- .loc(Ancient Furnace):
+   comment: Weapon smuggle
+   icon: flame
+- .dir(E>>) to .loc(Hateno Tech Leb) with blue flame
+- Activate .loc(Hateno Tech Lab):
+   icon: camera
+   coord: [3781.25,2126.8816126069296]
+- _Npc::Sheika::Female<Purah>:
+   icon-map: null
+- Take her picture, show it to her
+- .dir(W>):
+   comment: Equip bomb arrow and wooden bow
+- _Npc<Dantz>:
+   coord: [3632.125,2079.4343478764895]
+- .game(Deer Hunting):
+   icon-doc: game
+   comment: Purple Rupee
+- BLSS to Lurelin Village
+- _Npc<Cloyne>:
+   coord: [2973,3373.316508678812]
+- .game(Gambling Minigame):
+   icon-doc: game
+   comment: Gold Rupee 
+   notes: Bet 100 rupees
+
+
+
+- BLSS .dir(E) to Eventide Island:
+   coord: [4471,3628.5152124221604]
+- _Equipment::Bow<Shoot arrow at ground>:
+   comment: Use wooden bow 
+- Drop Pot Lid, Wooden Bow, 5 fairies
+- Eventide:
+   icon-doc: tots
+- Pick up Fairies, Pot Lid, Wooden Bow, Arrow
+- .dir(E): 
+   coord: [4640.375,3632.565549336874]
+   icon: orb
+- BLSS .dir(<N) with orb
+- Return orb:
+   icon: tots
+   movements:
+      - to: [4666.6875,3654.3847304682276]
+      - to: [4667.5,3508.0589310047617]
+      - to: [4498.5,3394.9969849253375]
+- .dir(S)
+- Take orb on hinox:
+   coord: [4539.375,3699.498903609214]
+   icon: orb
+- Return orb:
+   icon: tots 
+   coord: [4487.5,3751.8788373677526]
+- .dir(.E)
+- _Equipment::Weapon<Boko Bat>:
+   coord: [4631.875,3743.8167485142967]
+- .important(Drop Wooden Bow, Pot Lid)
+- Return orbs:
+   icon: tots
+   coord: [4671.75,3735.7521242571493]
+- Pick up Wooden Bow, Pot Lid
+- .dir(<E)
+- _Shrine::KorguChideh
+- _Npc::Rito<Mimo>:
+   coord: [4705.25,3738.7837825411025]
+- .game(Paraglider Course):
+   icon-doc: game
+   notes: Start with the circles on the right, then .dir(<S)
+   comment: Gold Rupee 
+
+
+- BLSS .dir(W): 
+   movements:
+     - to: [1640,4005.054727936389]
+     - to: [524.8125,3449.3860666944984]
+- Scan Epona:
+   icon-doc: horse
+   notes: For no amiibo gamers, you can take a horse near the stable 
+- _Npc<Blynne>
+- .game(Horse Minigame):
+   icon-doc: game
+   comment: Extravagant Saddle
+- Ride to .loc(Mounted Archery Camp)
+- _Npc<Jini>:
+   coord: [-191.5,3495.128825917387]
+- .game(Archery Minigame):
+   icon-doc: game
+   comment: Knight's Saddle
+   notes: Equip bomb arrow, break Wooden Bow and finish the minigame with Traveler's Bow
+- _Warp::Shrine::KehNamut

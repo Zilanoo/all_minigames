@@ -1,0 +1,61 @@
+- BLSS:
+   coord: [-3814.8125,2818.189521470512]
+   color: red
+- _Npc<Benjamin>:
+   icon-map: null
+- Activate .loc(Daqo Chisay):
+   icon: shrine
+- .dir(<E) + .dir(<E)
+- _Npc<Vilia>:
+    coord: [-3259.27, 163.93, 2611.54]
+    comment: Buy Gerudo clothes
+-  .dir(<W) + .dir(<W) or .dir(BLSS)
+- _Shop<Arrow Shop>:
+   comment: Buy 10 Fire Arrows, 10 Ice Arrows, 10 Shock Arrows
+   coord: [-3857.25,2913.763499311556]
+- _Npc::Gerudo<Riju>:
+   coord: [-3885,2962.1388419336763]
+- .dir(<N)
+- Boko BTB + Moblin BTB:
+   movements: 
+     - to: [-4123.5,2607.1579602480124]
+     - to: [-3793.6875,1868.7634650493437]
+     - to: [-3112.625,1333.4504168539506]
+   notes: .link([Tutorial]https://www.twitch.tv/videos/1623251015)
+- _Equipment::Weapon<Dragonbone Moblin Club>
+- .dir(W):
+   coord: [-3456.5,1338.6000456592474]
+- Clip in to .loc(Yiga Hideout)
+- _Equipment::Bow<Duplex Bow>:
+   icon-map: null 
+- .boss(Kohga):
+   icon: kohga
+- _Chest<Thunderhelm>:
+   icon-map: null 
+
+
+
+- .dir(E>>) + .dir(N) + .dir(N):
+   movements:
+   - to: [-3338,1393.726290549247]
+   - to: [-3266.5,1126.011786200952]
+- BLSS:
+    coord: [-3604.3125,-1830.423343981232]
+- _Npc::Rito<Kaneli>
+- _Npc::Rito<Saki>:
+   coord: [-3591.0625,-1823.607965955418]
+   comment: Revali memory
+- .dir(<N)
+- _Equipment::Bow<Swallow Bow + 10 Arrows>:
+   coord: [-3792.5625,-2319.2061729055786]
+   icon-map: null 
+- _Npc::Rito<Teba>
+- Shoot 5 Targets:
+   comment: Equip Bomb Arrows 
+- _Chest<Falcon Bow>:
+   icon-map: null 
+- .loc(Enter Medoh):
+   icon-doc: medoh
+- Complete Divine Beast 
+- .boss(Windblight):
+   icon-doc: tots 

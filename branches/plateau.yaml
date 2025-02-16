@@ -1,0 +1,64 @@
+# Standard BMSC Plateau Route
+- SoR clip + Start ToD:
+    icon: location
+    notes: After cutscene, hold ZL and hop left to exit
+- .food(3 Shrooms):
+   icon: food
+   movements:
+    - to: [-1045.75,1823.1005938546405]
+    - to: [-1033.5,1842.3611466159582]
+- _Equipment::Weapon<Torch and Axe>:
+   coord: [-928.75,1877.4381795190584]
+   notes: Sidehop down the hill while grabbing torch to avoid dialog
+
+- Run to .loc(Boko Camp)
+- _Equipment::Shield<Pot Lid>:
+    coord: [-952.34, 238.33, 1959.44]
+- .food(6 Peppers):
+   comment: Scrap + Food
+   icon-doc: food
+- .food(2 Shrooms):
+   icon-doc: food
+   comment: Scrap + Food
+
+- Run, surf to .loc(Temple of Time):
+    notes: Clip in.
+- _Chest<Traveler's Bow>:
+    coord: [-832.43, 222.00, 1963.11]
+- _Material<5 Normal Arrow>:
+    comment: Break pot
+    hide-icon-on-map: true
+
+- BLSS -> clip in
+- _Shrine::JaBaij
+- _Npc<Old Man>:
+    coord: [-461.70, 178.41, 1990.18]
+    comment: Text options 2-1-1-2
+
+- BLSS
+- _Tower::GreatPlateau
+- WB + lagstop FDC:
+     notes: Tower WB .link([tutorial]https://www.youtube.com/watch?v=98NlOBfMDWU)
+
+- _Chest<Ruby>:
+    coord: [-671.65, 171.79, 1522.61]
+- _Shrine::OmanAu
+
+- BLSS to Bomb Arrow Chest
+- _Chest<Bomb Arrow>:
+   coord: [-714.5,2313.307526254067]
+
+- BLSS -> tree WB:
+    coord: [-839, 2273.5]
+- _Shrine::OwaDaim
+
+- Ride the boulder -> BLSS:
+   notes: 3 Axe Hits on Boulder
+- _Shrine::KehNamut
+
+- BLSS
+- _Npc<Paraglider>:
+    icon: king
+    coord: [-809.33, 263.58, 1964.35]
+
+

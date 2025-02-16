@@ -1,0 +1,63 @@
+- .dir(S):
+   color: yellow
+   coord: [-3868.125,2946.37979670969]
+- _Npc::Gerudo<Riju>:
+   comment: On balcony
+- .dir(W>) or .dir(BLSS)
+- _Npc::Gerudo<Riju>:
+   comment: At outpost
+   coord: [-3422,3118.95171881801]
+- Sand-seal over to .loc(Misae Suma Shrine):
+   coord: [-2969.8125,3780.881646869142]
+   notes: If Riju asks to leave, say no
+- _Npc::Gerudo<Pokki>
+- Enter .loc(Naboris):
+   icon-doc: naboris 
+- Complete Divine Beast:
+   notes: .dir(GALE 2 + GALE 3)
+- .boss(Thunderblight):
+   icon-doc: tots
+- Urbosa's Fury:
+   icon: naboris
+   movements:
+   - to: [-3784.4375,2863.07788373322]
+     warp: true 
+
+
+
+- .dir(S)
+- _Npc::Gerudo<Tali>:
+   coord: [-3768.6875,3123.2531521235105]
+- Sand Seal Race 1:
+   notes: .important(Be careful not to get too good a time, you need to beat it later!)
+- Return orb 
+- _Npc::Gerudo<Tali>:
+   icon-map: null 
+- .game(Sand Seal Race Minigame):
+   icon-doc: game
+   comment: Gold Rupee
+- .dir(<N)
+- _Npc::Gerudo<Furosa>:
+   coord: [-3857.25,2856.869243948372]
+- .dir(N>)
+- _Npc::Gerudo<Anche>:
+   coord: [-3751.25,2285.3886020981918]
+   comment: Ice House 
+   notes: Bring ice up stairs, then melt. Stand over it and shoot the top face with a fire arrow to get a consistent size
+- BLSS with ice cube 
+- _Npc::Gerudo<Furosa>:
+   comment: Deliver ice
+   coord: [-3764.3125,2699.265931928613]
+- .dir(BLSS SE)
+- _Npc::Gerudo<Pokki>:
+   coord: [-2969.8125,3780.881646869142]
+- BLSS to .loc(Ice House)
+- _Npc::Gerudo<Anche>:
+   coord: [-3751.25,2285.3886020981918]
+   comment: Ice House 
+   notes: Bring ice up stairs, then melt. Stand over it and shoot the top face with a fire arrow to get a consistent size
+- BLSS with ice cube 
+- _Npc::Gerudo<Furosa>:
+   comment: Gold Rupee
+   coord: [-3764.3125,2699.265931928613]
+- _Warp::TechLab::Hateno

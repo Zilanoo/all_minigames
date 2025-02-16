@@ -1,0 +1,74 @@
+- BLSS:
+   movements:
+     - to: [4286,1723.1578802732229]
+     - to: [4506,1438.1556874916496]
+     - to: [4712,558.5427134392048]
+     - to: [4157.5,-3191.9221104527137]
+   color: orange
+- .loc(Ancient Furnace):
+   comment: Weapon smuggle
+   icon: flame
+- E to .loc(Akkala Tech Leb) with blue flame
+- Activate .loc(Akkala Tech Lab):
+   icon: location
+   coord: [4513.75,-3164.2269757934882]
+- _Npc::Sheika::Male<Robbie>:
+   icon-map: null
+- Weapon smuggle 
+- .dir(SW) with blue flame
+- Light the lantern closest to the stable:
+   icon: flame
+   coord: [4265.75,-2826.1751998658665]
+- _Npc<Aya>:
+   coord: [4242.5625,-2758.4146813667608]
+- .game(Torch 1):
+   icon-doc: game
+   notes: Run to the lantern that was lit earlier and shoot at the stable lantern
+   comment: Purple Rupee 
+- Put out the flame with Blizzard Rod
+- .game(Torch 2):
+   icon-doc: game
+   notes: Run to the lantern that was lit earlier and shoot at the stable lantern
+   comment: Silver Rupee 
+- Put out the flame with Blizzard Rod
+- .game(Torch 3):
+   icon-doc: game
+   notes: Run to the lantern that was lit earlier and shoot at the stable lantern
+   comment: Gold Rupee 
+- .dir(N)
+- .dir(BLSS) + .dir(W) + .dir(W) + .dir(W):
+   movements:
+   - to: [4267.375,-2864.359513480144]
+   - to: [3434.3125,-3478.0593478764895]
+   - to: [2722.5,-3475.4609410782396]
+   - to: [2664.375,-3456.349645963068]
+- _Npc::Goron<Bayge>
+- .game(Gut Check Challenge):
+   icon-doc: game
+   notes: .dir(W.) from tree and GALE 1 + GALE 2
+   comment: Collect 5 Red Rupees
+- _Npc::Goron<Bayge>:
+   icon-map: null
+- .game(Super Gut Check):
+   icon-doc: game
+   notes: .dir(N) + .dir(E) + collect Gold Rupee + GALE 3
+   comment: Sunshroom
+- BLSS:
+   movements:
+   - to: [1644,-3419.5581545131354]
+   - to: [1032,-3171.5395158697684]
+   - to: [658,-2745.305984632292]
+   - to: [565.25,-2160.407760399922]
+- _Npc<Damia>:
+   comment: Start The Test of Wood shrine quest
+- .dir(<E):
+   coord: [836.5,-2416.8339538699393]
+- Jump into mud to void out
+- _Npc<Damia>:
+   icon-map: null
+- .dir(<E)
+- .game(Test of Wood):
+   icon: game 
+   comment: Silver Rupee 
+- GG!:
+   icon-doc: tots
