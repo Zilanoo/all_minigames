@@ -7,6 +7,10 @@
    movements:
     - to: [-1045.75,1823.1005938546405]
     - to: [-1033.5,1842.3611466159582]
+- .food(2 Apples):
+   icon: food
+   coord: [-956.0625,1880.6858896760323]
+   comment: Scrap 
 - _Equipment::Weapon<Torch and Axe>:
    coord: [-928.75,1877.4381795190584]
    notes: Sidehop down the hill while grabbing torch to avoid dialog
